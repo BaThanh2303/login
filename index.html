@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="/images/logo.svg" alt="">
+            </div>
+            <div class="image"></div>
+            <div class="text"> Start for free & get <br/> attractive offers today !</div>
+        </div>
+
+    <form action="#" id="form" method="post">
+        <div>
+            <div class="social">
+                <div class="title">Login</div>
+                <div class="question">
+                    Already Have an account? <br>
+                    <span>Sign in</span>
+                </div>
+                <div class="btn">
+                    <div class="btn-1">
+                        <img src="https://img.icons8.com/clouds/100/null/google-logo.png"/>
+                        Sign In With Google
+                    </div>
+                    <div class="btn-2">
+                        <img src="https://img.icons8.com/clouds/100/null/facebook-new.png"/>
+                        Sign In With FaceBook
+                    </div>
+                </div>
+            </div>
+            <div class="or">Or</div>
+        </div>
+
+        <!--Username input-->
+        <div>
+            <label for="username">User Name</label>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="username" id="username" placeholder="Alien">
+            <i class="fa-regular fa-circle-xmark"></i>
+            <i class="fa-regular fa-circle-check"></i>
+            <div class="error"></div>
+        </div>
+     
+        <!--password input-->
+        <div>
+            <label for="password"></label>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="password" id="password" placeholder="password">
+            <i class="fa-regular fa-circle-xmark"></i>
+            <i class="fa-regular fa-circle-check"></i>
+            <div class="error"></div>
+        </div>
+        <button id="btn" type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+<script src="/login.js"></script>
+</html>
